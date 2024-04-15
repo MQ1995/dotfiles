@@ -18,6 +18,7 @@ window#waybar {
 	background: #1a1a1a;
 }
 
+#power-profiles-daemon,
 #backlight,
 #temperature,
 #workspaces,
@@ -73,10 +74,11 @@ window#waybar {
 #battery {
 	color: #859900;
 }
-#disk {
+#power-profiles-daemon {
 	color: #b58900;
 }
 
+#power-profiles-daemon,
 #tray,
 #backlight,
 #temperature,

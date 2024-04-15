@@ -45,7 +45,9 @@
 		
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
-		"disk",
+		"power-profiles-daemon",
+
+		// "disk",
 
 		"custom/left-arrow-light",
 		"custom/left-arrow-dark",
@@ -137,11 +139,24 @@
 			""
 		]
 	},
-	"disk": {
-		"interval": 5,
-		"format": " {percentage_used:2}%",
-		"path": "/"
-	},
+	// "disk": {
+	// 	"interval": 5,
+	// 	"format": " {percentage_used:2}%",
+	// 	"path": "/"
+	// },
+
+	"power-profiles-daemon": {
+		"format": "{icon}",
+		"tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+		"tooltip": true,
+		"format-icons": {
+		  "default": "",
+		  "performance": "",
+		  "balanced": "",
+		  "power-saver": ""
+		}
+	  },
+
 	"tray": {
 		"icon-size": 16
 	}
