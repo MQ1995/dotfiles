@@ -1,0 +1,6 @@
+gdm-settings
+gradience-git
+hyprpicker-git
+protonmail-desktop
+selectdefaultapplication-git
+visual-studio-code-bin
