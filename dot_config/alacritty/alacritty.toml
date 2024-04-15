@@ -1,0 +1,7 @@
+[window]
+padding = {x=15,y=15}
+opacity = 0.9
+resize_increments = true
+
+[font]
+normal = {family="JetBrainsMono Nerd Font Propo", style="Regular"}

@@ -1,0 +1,17 @@
+# To see config options, run "man 5 mako"
+
+font='JetBrainsMono NFM Regular 14px'
+
+border-size=1
+border-radius=5
+
+padding=10
+
+# Don't show icons
+icons=0
+
+# Notification timeout in milliseconds
+default-timeout=5000
+
+# Ignore default notification timeout, use custom instead
+ignore-timeout=1
