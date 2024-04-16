@@ -18,6 +18,7 @@ window#waybar {
 	background: #1a1a1a;
 }
 
+#custom-notification,
 #power-profiles-daemon,
 #backlight,
 #temperature,
@@ -32,8 +33,6 @@ window#waybar {
 #disk,
 #tray {
 	background: #1a1a1a;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 #workspaces button {
@@ -78,6 +77,7 @@ window#waybar {
 	color: #b58900;
 }
 
+#custom-notification,
 #power-profiles-daemon,
 #tray,
 #backlight,
@@ -88,5 +88,5 @@ window#waybar {
 #cpu,
 #battery,
 #disk {
-	padding: 0 10px;
+	padding: 0 5px;
 }

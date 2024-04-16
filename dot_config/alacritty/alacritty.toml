@@ -1,5 +1,5 @@
 [window]
-padding = {x=15,y=15}
+padding = {x=30,y=30}
 opacity = 0.9
 resize_increments = true
 

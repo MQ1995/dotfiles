@@ -11,7 +11,6 @@ sudo pacman -S (
     nautilus # file manager
     vivaldi # browser
     waybar # wayland status bar
-    mako # notification
     wofi # run commands
     polkit-gnome # authentication agent
     qt5ct # configure qt5 apps look
@@ -26,15 +25,15 @@ sudo pacman -S (
     wl-clipboard # wayland clipboard (maybe already installed)
     cliphist # clip history
     grim # Grab images from a Wayland compositor
-    slurp # Select screen portion
-    jq # json utility to parse hyprctl output    
+    slurp # Select screen portion   
 )
 
-yay hyprpicker-git
-yay visual-studio-code-bin
-yay gradience # fix nautilus GTK4 theme
-yay protonmail-desktop
-yay gdm-settings # set configuration for Gnome login
-yay selectdefaultapplication-git # set default applications through 'selectdefaultapplication command'
+sudo yay swaync # notifications
+sudo yay hyprpicker-git # color picker
+sudo yay visual-studio-code-bin
+sudo yay gradience # fix nautilus GTK4 theme
+sudo yay protonmail-desktop
+sudo yay gdm-settings # set configuration for Gnome login
+sudo yay selectdefaultapplication-git # set default applications through 'selectdefaultapplication command'
 
-systemctl enable gdm.service # enable Gnome login
+sudo systemctl enable gdm.service # enable Gnome login
