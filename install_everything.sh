@@ -25,7 +25,7 @@ sudo pacman -S (
     cliphist # clip history
     grim # Grab images from a Wayland compositor
     slurp # Select screen portion
-    lf # file manager
+    lf # CLI file manager
     loupe # image viewer
     fragments # torrents
     chezmoi # to sync dotfiles
@@ -40,6 +40,8 @@ yay selectdefaultapplication-git # set default applications through 'selectdefau
 yay swaync # notifications
 yay decibels # audio player
 yay shortwave # radio
+yay switcheroo-gtk4 # convert multiple images
+yay errands # todo list
 
 chezmoi init https://github.com/MQ1995/dotfiles.git
 chezmoi diff # check differences
@@ -54,9 +56,7 @@ sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/maste
 sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Remove Gnome bloat
-
 sudo pacman -Rns (
-
     simple-scan #scanning utility
     orca #screen reader
     malcontent #parental control
@@ -67,4 +67,7 @@ sudo pacman -Rns (
     gnome-contacts #contacts
     epiphany #web browser
     gnome-maps #maps
+    gnome-text-editor
+    gnome-tour
+    gnome-software
 )
